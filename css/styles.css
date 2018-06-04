@@ -1,0 +1,54 @@
+.container{
+  position: relative;
+}
+#responsive {
+  display: flex;
+  text-align: center;
+}
+
+.thumbnails {
+  text-align: center;
+}
+.thumbnails li {
+  display: inline-block;
+}
+
+.thumbnails li img {
+  width: 75px;
+  height: 70px;
+}
+
+.thumbnails [aria-selected="true"] {
+  opacity: .5;  
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+.caption {
+    position: relative;
+}
+
+#custom-controls li {
+  display: block;
+  position: absolute;
+  top:200px;
+}
+#custom-controls li img {
+  width: 50px;
+  height: 50px;
+}
+
+#prev {
+  left: 0;
+  z-index: 2;
+  height:auto;
+}
+
+#next {
+  right: 0;
+   z-index: 2;
+   height: auto;
+}
+
